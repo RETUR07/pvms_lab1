@@ -1,0 +1,102 @@
+Script started on 2023-01-29 14:29:41+03:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="77" LINES="24"]
+[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ ls
+[?2004l[0m[01;34m1[0m           3Chern12U  5Chern12U  timelog3Chern12PI  timelog4Chern12U
+3Chern12PI  4Chern12U  README.md  timelog3Chern12U   timelog5Chern12U
+[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ d [K[Kcd 1/2
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ tee fil2[K[Kle1
+[?2004l1
+1
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ cd 3
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ cd 3tee file1[K2
+[?2004l2
+2
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ tee file2[5Pcd 3tee file1[5Pcd 3[K4
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3/4retur@retur-virtual-machine:~/chern/1/2/3/4$ cd 4tee file2[K3
+[?2004l3
+3
+c ^C
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3/4retur@retur-virtual-machine:~/chern/1/2/3/4$ tee file3[K4
+[?2004l4
+4
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3/4retur@retur-virtual-machine:~/chern/1/2/3/4$ cd ..
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ cd ..
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ cd ..
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ln - [Ks //2[K[K[K/[K./2/3/4/file4
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls
+[?2004l[0m[01;34m2[0m  [01;36mfile4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cd ~[K2
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ cd 2[2Plsn -s ./2/3/4/file4[C[1P/3/4/file4[1P3/4/file4[C[C[C[C[1P/file4[1Pfile4[C[C[C[C[C[C[K2[1P ./3/file2[1P ./3/file2[1P./3/file2
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ ls
+[?2004l[0m[01;34m3[0m  file1  file2
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2retur@retur-virtual-machine:~/chern/1/2$ cd 3
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ cd 3[2Plsn ./3/file2[1P/file24/file2
+[?2004lln: failed to access './4/file2': No such file or directory
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ ln ./4/file2[K3
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ ls
+[?2004l[0m[01;34m4[0m  file2  file3
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1/2/3retur@retur-virtual-machine:~/chern/1/2/3$ cd ../..
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls
+[?2004l[0m[01;34m2[0m  [01;36mfile4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat file4
+[?2004l4
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat 2/[K[K./2/file2
+[?2004l2
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/file2[K1
+[?2004l1
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/file1[C/file13/file1[C[C[C[C[C[C[K2
+[?2004l2
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/file2[K3
+[?2004l3
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/file3[C/file34/file3[C[C[C[C[C[C[K4
+[?2004l4
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/4/file4[C[K3
+[?2004l3
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls -la
+[?2004ltotal 12
+drwxrwxr-x 3 retur retur 4096 янв 29 14:32 [0m[01;34m.[0m
+drwxrwxr-x 4 retur retur 4096 янв 29 14:29 [01;34m..[0m
+drwxrwxr-x 3 retur retur 4096 янв 29 14:33 [01;34m2[0m
+lrwxrwxrwx 1 retur retur   13 янв 29 14:32 [01;36mfile4[0m -> ./2/3/4/file4
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls -la[C[1Paia[1PaOa[1PaIa[1Pala[C[K[K[K-Ia
+[?2004l[0m[01;34m2[0m  [01;36mfile4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls -Ia[1Pa
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  [01;34m2[0m  [01;36mfile4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ rm [7m./2/3/4/file4[27m./2/3/4/file4
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ rm ./2/3/4/file4ls -a[KIala
+[?2004ltotal 12
+drwxrwxr-x 3 retur retur 4096 янв 29 14:32 [0m[01;34m.[0m
+drwxrwxr-x 4 retur retur 4096 янв 29 14:29 [01;34m..[0m
+drwxrwxr-x 3 retur retur 4096 янв 29 14:33 [01;34m2[0m
+lrwxrwxrwx 1 retur retur   13 янв 29 14:32 [40;31;01mfile4[0m -> [40;31;01m./2/3/4/file4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls -larm ./2/3/4/file4ls -a[KIalacat ./2/3/4/file3
+[?2004l3
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/4/file3[K4
+[?2004lcat: ./2/3/4/file4: No such file or directory
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ rmcat ./2/3/4/file43[11Pls -larm ./2/3/4/file4[K3
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ rm ./2/3/4/file3cat ./2/3/4/file43[11Pls -la
+[?2004ltotal 12
+drwxrwxr-x 3 retur retur 4096 янв 29 14:32 [0m[01;34m.[0m
+drwxrwxr-x 4 retur retur 4096 янв 29 14:29 [01;34m..[0m
+drwxrwxr-x 3 retur retur 4096 янв 29 14:33 [01;34m2[0m
+lrwxrwxrwx 1 retur retur   13 янв 29 14:32 [40;31;01mfile4[0m -> [40;31;01m./2/3/4/file4[0m
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ ls -larm ./2/3/4/file3cat ./2/3/4/file4[K3
+[?2004lcat: ./2/3/4/file3: No such file or directory
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/4/file3[1P/file3[1Pfile3
+[?2004l3
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cat ./2/3/file3[K1[K4[1Pfile4[1Pfile4[1Pfile4[1Pfile4
+[?2004lcat: ./file4: No such file or directory
+[?2004h]0;retur@retur-virtual-machine: ~/chern/1retur@retur-virtual-machine:~/chern/1$ cd ..
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ rmdir -r 1
+[?2004lrmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ rmdir -r 1[1P[1P[1P
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ ls
+[?2004l3Chern12PI  4Chern12U  README.md          timelog3Chern12U  timelog5Chern12U
+3Chern12U   5Chern12U  timelog3Chern12PI  timelog4Chern12U
+[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ exit
+[?2004lexit
+
+Script done on 2023-01-29 14:39:39+03:00 [COMMAND_EXIT_CODE="0"]
