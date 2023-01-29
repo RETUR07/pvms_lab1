@@ -1,0 +1,126 @@
+Script started on 2023-01-29 13:02:14+03:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ help
+[?2004lGNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap] [-f file>  popd [-n] [+N | -N]
+ break [n]                               printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]       pushd [-n] [+N | -N | dir]
+ caller [expr]                           pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...)>  read [-ers] [-a array] [-d delim] [->
+ cd [-L|[-P [-e]] [-@]] [dir]            readarray [-d delim] [-n count] [-O >
+ command [-pVv] command [arg ...]        readonly [-aAf] [name[=value] ...] o>
+ compgen [-abcdefgjksuv] [-o option] [>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI]>  select NAME [in WORDS ... ;] do COMM>
+ compopt [-o|+o option] [-DEI] [name .>  set [-abefhkmnptuvxBCHP] [-o option->
+ continue [n]                            shift [n]
+ coproc [NAME] command [redirections]    shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [-p] [name[=>  source filename [arguments]
+ dirs [-clpv] [+N] [-N]                  suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid >  test [expr]
+ echo [-neE] [arg ...]                   time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [na>  times
+ eval [arg ...]                          trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argume>  true
+ exit [n]                                type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or ex>  typeset [-aAfFgiIlnrtux] [-p] name[=>
+ false                                   ulimit [-SHabcdefiklmnpqrstuvxPT] [l>
+ fc [-e ename] [-lnr] [first] [last] o>  umask [-p] [-S] [mode]
+ fg [job_spec]                           unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMAND>  unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMAN>  until COMMANDS; do COMMANDS; done
+ function name { COMMANDS ; } or name >  variables - Names and meanings of so>
+ getopts optstring name [arg ...]        wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name >  while COMMANDS; do COMMANDS; done
+ help [-dms] [pattern ...]               { COMMANDS ; }
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ ls
+[?2004l3Chern12U          [0m[01;34mDocuments[0m  [01;34mPictures[0m  [01;34mTemplates[0m         typescript
+cherniauski12.txt  [01;34mDownloads[0m  [01;34mPublic[0m    time_log          [01;34mVideos[0m
+[01;34mDesktop[0m            [01;34mMusic[0m      [01;34msnap[0m      timelog3Chern12U
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ cd
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ pwd
+[?2004l/home/retur
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ md[Kkdir
+[?2004lmkdir: missing operand
+Try 'mkdir --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ rmdir
+[?2004lrmdir: missing operand
+Try 'rmdir --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ rm
+[?2004lrm: missing operand
+Try 'rm --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ how[K[Kistory
+[?2004l    1  sudo apt-get install ssh
+    2  help
+    3  ls
+    4  cd
+    5  pwd
+    6  mkdir
+    7  rmdr
+    8  rm
+    9  history
+   10  exit
+   11  help
+   12  ls
+   13  cd Documents
+   14  pwd
+   15  mkdir dir
+   16  rmdir dir
+   17  rm
+   18  history
+   19  exit
+   20  ls
+   21  script
+   22  ls
+   23  nano typescript
+   24  clear
+   25  script -ttime_log cherniauski12.txt
+   26  ls
+   27  nano time_log
+   28  nano cherniauski12.txt 
+   29  ccd ~
+   30  cd ~
+   31  docker
+   32  sudo snap install docker
+   33  docker 
+   34  docker-compose
+   35  cd webcalc
+   36  ls
+   37  cd Desktop/
+   38  cd webcalc/
+   39  spt get install telegram
+   40  apt get install telegram
+   41  apt-get install teleg
+   42  sudo apt-get install telegram
+   43  sudo snap install telegram-desktop
+   44  telegram
+   45  telegram-desktop
+   46  git clone https://gitlab.intuswindows.com/webcalc/webcalc2.git
+   47  sudo apt install git
+   48  exit
+   49  sudo apt install git
+   50  help
+   51  ls
+   52  cd
+   53  pwd
+   54  mkdir
+   55  rmdir
+   56  rm
+   57  history
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ exit
+[?2004lexit
+
+Script done on 2023-01-29 13:03:18+03:00 [COMMAND_EXIT_CODE="0"]
