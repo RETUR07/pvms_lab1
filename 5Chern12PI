@@ -1,0 +1,65 @@
+Script started on Sun 29 Jan 2023 11:41:22 GMT
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m c[Kmkdir 1/2/3/4
+mkdir: cannot create directory ‘1/2/3/4’: No such file or directory
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir 1/2/3/4[C 1/2/3/4- 1/2/3/4R 1/2/3/4
+mkdir: invalid option -- 'R'
+Try 'mkdir --help' for more information.
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir -R 1/2/3/4[1P 1/2/3/4r 1/2/3/4
+mkdir: invalid option -- 'r'
+Try 'mkdir --help' for more information.
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m mkdir -r 1/2/3/4[1P 1/2/3/4p 1/2/3/4
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee [K[K[Kee ./1/2/3/4/file4
+4
+4
+^C
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee ./1/2/3/4/file4[C[C[C[C[C[K4[K3
+3
+3
+^C
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m tee ./1/2/3/4/file34[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kln ./1/[K[K[K[K[K[K[Kcd .[K1
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m ln ./2/3/4/file [K4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m ls
+[0m[01;34m2[0m  file4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m cat fila[Ke4
+4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m cd 2/3
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m cd 2/3at file4ls[Kn ./2/3/4/file4[1P/4/file4[1P4/file4[1P/4/file4[1P4/file4[C[C[C[C[C[C[C[C[K3[C[C ./4/file3- ./4/file3s ./4/file3
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m ln -s ./4/file3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34m4[0m  [01;36mfile3[0m
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m cat file 3
+cat: file: No such file or directory
+cat: 3: No such file or directory
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m cat file 3[1P3
+3
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m cd 4
+]0;pi@raspberry: ~/1/2/3/4[01;32mpi@raspberry[00m:[01;34m~/1/2/3/4 $[00m rm file3
+]0;pi@raspberry: ~/1/2/3/4[01;32mpi@raspberry[00m:[01;34m~/1/2/3/4 $[00m rm file4
+]0;pi@raspberry: ~/1/2/3/4[01;32mpi@raspberry[00m:[01;34m~/1/2/3/4 $[00m cd ..
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m ls
+[0m[01;34m4[0m  [40;31;01mfile3[0m
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m lscd ..rm file43[4Pcd 4at file3
+cat: file3: No such file or directory
+]0;pi@raspberry: ~/1/2/3[01;32mpi@raspberry[00m:[01;34m~/1/2/3 $[00m cd ..
+]0;pi@raspberry: ~/1/2[01;32mpi@raspberry[00m:[01;34m~/1/2 $[00m cd..
+bash: cd..: command not found
+]0;pi@raspberry: ~/1/2[01;32mpi@raspberry[00m:[01;34m~/1/2 $[00m cd ..
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m ls
+[0m[01;34m2[0m  file4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m cat file 4
+cat: file: No such file or directory
+cat: 4: No such file or directory
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m s[Kls
+[0m[01;34m2[0m  file4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m cat file4
+4
+]0;pi@raspberry: ~/1[01;32mpi@raspberry[00m:[01;34m~/1 $[00m cd ..
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m rm -r 1
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ls
+3Chern12PI          [0m[01;34mchern[0m        [01;34mDownloads[0m  [01;34mPictures[0m      timelog3Chern12PI
+5Chern12U           [01;34mcherniauski[0m  file       [01;34mPublic[0m        timelog5Chern12U
+charniauski12.log   [01;34mDesktop[0m      help       [01;34mpython_games[0m  [01;34mVideos[0m
+charniauski12.time  [01;34mDocuments[0m    [01;34mMusic[0m      [01;34mTemplates[0m
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on Sun 29 Jan 2023 11:45:58 GMT
