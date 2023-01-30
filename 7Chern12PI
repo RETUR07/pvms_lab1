@@ -1,0 +1,340 @@
+Script started on Mon 30 Jan 2023 19:36:31 GMT
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exitscript -ttimelog5Chern12U 5Chern12U[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kps
+  PID TTY          TIME CMD
+  754 pts/1    00:00:00 bash
+  760 pts/1    00:00:00 ps
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -a
+  PID TTY          TIME CMD
+  752 pts/0    00:00:00 script
+  753 pts/0    00:00:00 script
+  761 pts/1    00:00:00 ps
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:03 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 ksoftirqd/0
+    4 ?        00:00:00 kworker/0:0
+    5 ?        00:00:00 kworker/0:0H
+    6 ?        00:00:00 kworker/u64:0
+    7 ?        00:00:00 rcu_sched
+    8 ?        00:00:00 rcu_bh
+    9 ?        00:00:00 migration/0
+   10 ?        00:00:00 watchdog/0
+   11 ?        00:00:01 watchdog/1
+   12 ?        00:00:00 migration/1
+   13 ?        00:00:00 ksoftirqd/1
+   14 ?        00:00:02 kworker/1:0
+   15 ?        00:00:00 kworker/1:0H
+   16 ?        00:00:00 watchdog/2
+   17 ?        00:00:01 migration/2
+   18 ?        00:00:01 ksoftirqd/2
+   20 ?        00:00:00 kworker/2:0H
+   21 ?        00:00:00 watchdog/3
+   22 ?        00:00:00 migration/3
+   23 ?        00:00:01 ksoftirqd/3
+   25 ?        00:00:00 kworker/3:0H
+   26 ?        00:00:00 khelper
+   27 ?        00:00:00 kdevtmpfs
+   28 ?        00:00:00 netns
+   29 ?        00:00:00 khungtaskd
+   30 ?        00:00:00 writeback
+   31 ?        00:00:00 ksmd
+   32 ?        00:00:00 khugepaged
+   33 ?        00:00:00 crypto
+   34 ?        00:00:00 kintegrityd
+   35 ?        00:00:00 bioset
+   36 ?        00:00:00 kblockd
+   38 ?        00:00:00 kworker/2:1
+   40 ?        00:00:00 kswapd0
+   41 ?        00:00:00 vmstat
+   42 ?        00:00:00 fsnotify_mark
+   48 ?        00:00:00 kthrotld
+   50 ?        00:00:00 ipv6_addrconf
+   51 ?        00:00:00 deferwq
+   52 ?        00:00:00 kworker/u64:1
+   91 ?        00:00:00 khubd
+   92 ?        00:00:00 kpsmoused
+   94 ?        00:00:00 ttm_swap
+   95 ?        00:00:00 ata_sff
+   96 ?        00:00:01 kworker/0:2
+   97 ?        00:00:00 scsi_eh_0
+   98 ?        00:00:00 scsi_tmf_0
+   99 ?        00:00:00 scsi_eh_1
+  100 ?        00:00:00 scsi_tmf_1
+  102 ?        00:00:00 mpt_poll_0
+  103 ?        00:00:00 mpt/0
+  105 ?        00:00:00 scsi_eh_2
+  106 ?        00:00:00 scsi_tmf_2
+  109 ?        00:00:01 kworker/0:1H
+  110 ?        00:00:00 kworker/2:1H
+  111 ?        00:00:00 kworker/3:1H
+  112 ?        00:00:00 kworker/3:2
+  143 ?        00:00:00 jbd2/sda1-8
+  144 ?        00:00:00 ext4-rsv-conver
+  174 ?        00:00:00 kworker/1:2
+  179 ?        00:00:00 kauditd
+  184 ?        00:00:00 kworker/1:1H
+  195 ?        00:00:00 systemd-udevd
+  196 ?        00:00:00 systemd-journal
+  309 ?        00:00:00 kworker/u65:0
+  310 ?        00:00:00 hci0
+  314 ?        00:00:00 hci0
+  339 ?        00:00:00 kworker/u65:1
+  533 ?        00:00:00 bluetoothd
+  535 ?        00:00:00 cron
+  536 ?        00:00:00 rsyslogd
+  537 ?        00:00:00 avahi-daemon
+  539 ?        00:00:00 dbus-daemon
+  542 ?        00:00:00 cfg80211
+  543 ?        00:00:00 dhcpcd
+  551 ?        00:00:00 avahi-daemon
+  556 ?        00:00:00 systemd-logind
+  559 ?        00:00:00 acpid
+  569 ?        00:00:00 sshd
+  585 ?        00:00:00 lightdm
+  616 tty1     00:00:00 agetty
+  617 ?        00:00:00 irqbalance
+  621 tty7     00:00:08 Xorg
+  624 ?        00:00:00 ntpd
+  628 ?        00:00:00 thd
+  644 ?        00:00:00 lightdm
+  647 ?        00:00:00 systemd
+  648 ?        00:00:00 (sd-pam)
+  650 ?        00:00:06 pi-greeter
+  697 ?        00:00:00 lightdm
+  705 ?        00:00:00 kworker/2:0
+  707 ?        00:00:00 kworker/3:0
+  720 ?        00:00:00 sshd
+  722 ?        00:00:00 systemd
+  723 ?        00:00:00 (sd-pam)
+  725 ?        00:00:00 sshd
+  726 pts/0    00:00:00 bash
+  752 pts/0    00:00:00 script
+  753 pts/0    00:00:00 script
+  754 pts/1    00:00:00 bash
+  762 pts/1    00:00:00 ps
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -x
+  PID TTY      STAT   TIME COMMAND
+  722 ?        Ss     0:00 /lib/systemd/systemd --user
+  723 ?        S      0:00 (sd-pam)                
+  725 ?        R      0:00 sshd: pi@pts/0      
+  726 pts/0    Ss     0:00 -bash
+  752 pts/0    S+     0:00 script -ttimelog7Chern12PI 7Chern12PI
+  753 pts/0    R+     0:00 script -ttimelog7Chern12PI 7Chern12PI
+  754 pts/1    Ss     0:00 bash -i
+  763 pts/1    R+     0:00 ps -x
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -ax
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:03 /sbin/init splash splash
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    4 ?        S      0:00 [kworker/0:0]
+    5 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [kworker/u64:0]
+    7 ?        S      0:00 [rcu_sched]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        S      0:00 [migration/0]
+   10 ?        S      0:00 [watchdog/0]
+   11 ?        S      0:01 [watchdog/1]
+   12 ?        S      0:00 [migration/1]
+   13 ?        S      0:00 [ksoftirqd/1]
+   14 ?        S      0:02 [kworker/1:0]
+   15 ?        S<     0:00 [kworker/1:0H]
+   16 ?        S      0:00 [watchdog/2]
+   17 ?        S      0:01 [migration/2]
+   18 ?        S      0:01 [ksoftirqd/2]
+   20 ?        S<     0:00 [kworker/2:0H]
+   21 ?        S      0:00 [watchdog/3]
+   22 ?        S      0:00 [migration/3]
+   23 ?        S      0:01 [ksoftirqd/3]
+   25 ?        S<     0:00 [kworker/3:0H]
+   26 ?        S<     0:00 [khelper]
+   27 ?        S      0:00 [kdevtmpfs]
+   28 ?        S<     0:00 [netns]
+   29 ?        S      0:00 [khungtaskd]
+   30 ?        S<     0:00 [writeback]
+   31 ?        SN     0:00 [ksmd]
+   32 ?        SN     0:00 [khugepaged]
+   33 ?        S<     0:00 [crypto]
+   34 ?        S<     0:00 [kintegrityd]
+   35 ?        S<     0:00 [bioset]
+   36 ?        S<     0:00 [kblockd]
+   38 ?        S      0:00 [kworker/2:1]
+   40 ?        S      0:00 [kswapd0]
+   41 ?        S<     0:00 [vmstat]
+   42 ?        S      0:00 [fsnotify_mark]
+   48 ?        S<     0:00 [kthrotld]
+   50 ?        S<     0:00 [ipv6_addrconf]
+   51 ?        S<     0:00 [deferwq]
+   52 ?        S      0:00 [kworker/u64:1]
+   91 ?        S      0:00 [khubd]
+   92 ?        S<     0:00 [kpsmoused]
+   94 ?        S<     0:00 [ttm_swap]
+   95 ?        S<     0:00 [ata_sff]
+   96 ?        S      0:01 [kworker/0:2]
+   97 ?        S      0:00 [scsi_eh_0]
+   98 ?        S<     0:00 [scsi_tmf_0]
+   99 ?        S      0:00 [scsi_eh_1]
+  100 ?        S<     0:00 [scsi_tmf_1]
+  102 ?        S<     0:00 [mpt_poll_0]
+  103 ?        S<     0:00 [mpt/0]
+  105 ?        S      0:00 [scsi_eh_2]
+  106 ?        S<     0:00 [scsi_tmf_2]
+  109 ?        S<     0:01 [kworker/0:1H]
+  110 ?        S<     0:00 [kworker/2:1H]
+  111 ?        S<     0:00 [kworker/3:1H]
+  112 ?        S      0:00 [kworker/3:2]
+  143 ?        S      0:00 [jbd2/sda1-8]
+  144 ?        S<     0:00 [ext4-rsv-conver]
+  174 ?        S      0:00 [kworker/1:2]
+  179 ?        S      0:00 [kauditd]
+  184 ?        S<     0:00 [kworker/1:1H]
+  195 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  196 ?        Ss     0:00 /lib/systemd/systemd-journald
+  309 ?        S<     0:00 [kworker/u65:0]
+  310 ?        S<     0:00 [hci0]
+  314 ?        S<     0:00 [hci0]
+  339 ?        S<     0:00 [kworker/u65:1]
+  533 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
+  535 ?        Ss     0:00 /usr/sbin/cron -f
+  536 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  537 ?        Ss     0:00 avahi-daemon: running [raspberry.local]
+  539 ?        Ss     0:00 /usr/bin/dbus-daemon --system --address=systemd: --no
+  542 ?        S<     0:00 [cfg80211]
+  543 ?        Ss     0:00 /sbin/dhcpcd -q -b
+  551 ?        S      0:00 avahi-daemon: chroot helper
+  556 ?        Ss     0:00 /lib/systemd/systemd-logind
+  559 ?        Ss     0:00 /usr/sbin/acpid
+  569 ?        Ss     0:00 /usr/sbin/sshd -D
+  585 ?        Ssl    0:00 /usr/sbin/lightdm
+  616 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+  617 ?        Ss     0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+  621 tty7     Ssl+   0:08 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/root
+  624 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 106:111
+  628 ?        Ss     0:00 /usr/sbin/thd --daemon --triggers /etc/triggerhappy/t
+  644 ?        Sl     0:00 lightdm --session-child 17 20
+  647 ?        Ss     0:00 /lib/systemd/systemd --user
+  648 ?        S      0:00 (sd-pam)                
+  650 ?        Ssl    0:06 /usr/sbin/pi-greeter
+  697 ?        S      0:00 lightdm --session-child 13 20
+  705 ?        R      0:00 [kworker/2:0]
+  707 ?        S      0:00 [kworker/3:0]
+  720 ?        Ss     0:00 sshd: pi [priv]     
+  722 ?        Ss     0:00 /lib/systemd/systemd --user
+  723 ?        S      0:00 (sd-pam)                
+  725 ?        R      0:00 sshd: pi@pts/0      
+  726 pts/0    Ss     0:00 -bash
+  752 pts/0    S+     0:00 script -ttimelog7Chern12PI 7Chern12PI
+  753 pts/0    R+     0:00 script -ttimelog7Chern12PI 7Chern12PI
+  754 pts/1    Ss     0:00 bash -i
+  764 pts/1    R+     0:00 ps -ax
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m ps -ax[Ceax[C[C > ps.log
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m cat ps.log
+  PID TTY      STAT   TIME COMMAND
+    1 ?        Ss     0:03 /sbin/init splash splash
+    2 ?        S      0:00 [kthreadd]
+    3 ?        S      0:00 [ksoftirqd/0]
+    4 ?        S      0:00 [kworker/0:0]
+    5 ?        S<     0:00 [kworker/0:0H]
+    6 ?        S      0:00 [kworker/u64:0]
+    7 ?        S      0:00 [rcu_sched]
+    8 ?        S      0:00 [rcu_bh]
+    9 ?        S      0:00 [migration/0]
+   10 ?        S      0:00 [watchdog/0]
+   11 ?        S      0:01 [watchdog/1]
+   12 ?        S      0:00 [migration/1]
+   13 ?        S      0:00 [ksoftirqd/1]
+   14 ?        S      0:02 [kworker/1:0]
+   15 ?        S<     0:00 [kworker/1:0H]
+   16 ?        S      0:00 [watchdog/2]
+   17 ?        S      0:01 [migration/2]
+   18 ?        S      0:01 [ksoftirqd/2]
+   20 ?        S<     0:00 [kworker/2:0H]
+   21 ?        S      0:00 [watchdog/3]
+   22 ?        S      0:00 [migration/3]
+   23 ?        S      0:01 [ksoftirqd/3]
+   25 ?        S<     0:00 [kworker/3:0H]
+   26 ?        S<     0:00 [khelper]
+   27 ?        S      0:00 [kdevtmpfs]
+   28 ?        S<     0:00 [netns]
+   29 ?        S      0:00 [khungtaskd]
+   30 ?        S<     0:00 [writeback]
+   31 ?        SN     0:00 [ksmd]
+   32 ?        SN     0:00 [khugepaged]
+   33 ?        S<     0:00 [crypto]
+   34 ?        S<     0:00 [kintegrityd]
+   35 ?        S<     0:00 [bioset]
+   36 ?        S<     0:00 [kblockd]
+   38 ?        S      0:00 [kworker/2:1]
+   40 ?        S      0:00 [kswapd0]
+   41 ?        S<     0:00 [vmstat]
+   42 ?        S      0:00 [fsnotify_mark]
+   48 ?        S<     0:00 [kthrotld]
+   50 ?        S<     0:00 [ipv6_addrconf]
+   51 ?        S<     0:00 [deferwq]
+   52 ?        S      0:00 [kworker/u64:1]
+   91 ?        S      0:00 [khubd]
+   92 ?        S<     0:00 [kpsmoused]
+   94 ?        S<     0:00 [ttm_swap]
+   95 ?        S<     0:00 [ata_sff]
+   96 ?        S      0:01 [kworker/0:2]
+   97 ?        S      0:00 [scsi_eh_0]
+   98 ?        S<     0:00 [scsi_tmf_0]
+   99 ?        S      0:00 [scsi_eh_1]
+  100 ?        S<     0:00 [scsi_tmf_1]
+  102 ?        S<     0:00 [mpt_poll_0]
+  103 ?        S<     0:00 [mpt/0]
+  105 ?        S      0:00 [scsi_eh_2]
+  106 ?        S<     0:00 [scsi_tmf_2]
+  109 ?        S<     0:01 [kworker/0:1H]
+  110 ?        S<     0:00 [kworker/2:1H]
+  111 ?        S<     0:00 [kworker/3:1H]
+  112 ?        S      0:00 [kworker/3:2]
+  143 ?        S      0:00 [jbd2/sda1-8]
+  144 ?        S<     0:00 [ext4-rsv-conver]
+  174 ?        S      0:00 [kworker/1:2]
+  179 ?        S      0:00 [kauditd]
+  184 ?        S<     0:00 [kworker/1:1H]
+  195 ?        Ss     0:00 /lib/systemd/systemd-udevd
+  196 ?        Ss     0:00 /lib/systemd/systemd-journald
+  309 ?        S<     0:00 [kworker/u65:0]
+  310 ?        S<     0:00 [hci0]
+  314 ?        S<     0:00 [hci0]
+  339 ?        S<     0:00 [kworker/u65:1]
+  533 ?        Ss     0:00 /usr/lib/bluetooth/bluetoothd
+  535 ?        Ss     0:00 /usr/sbin/cron -f
+  536 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+  537 ?        Ss     0:00 avahi-daemon: running [raspberry.local]
+  539 ?        Ss     0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+  542 ?        S<     0:00 [cfg80211]
+  543 ?        Ss     0:00 /sbin/dhcpcd -q -b
+  551 ?        S      0:00 avahi-daemon: chroot helper
+  556 ?        Ss     0:00 /lib/systemd/systemd-logind
+  559 ?        Ss     0:00 /usr/sbin/acpid
+  569 ?        Ss     0:00 /usr/sbin/sshd -D
+  585 ?        Ssl    0:00 /usr/sbin/lightdm
+  616 tty1     Ss+    0:00 /sbin/agetty --noclear tty1 linux
+  617 ?        Ss     0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+  621 tty7     Ssl+   0:08 /usr/bin/X :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+  624 ?        Ss     0:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 106:111
+  628 ?        Ss     0:00 /usr/sbin/thd --daemon --triggers /etc/triggerhappy/triggers.d/ --socket /var/run/thd.socket --pidfile /var/run/thd.pid --user nobody /dev/input/event0 /dev/input/event1 /dev/input/event2 /dev/input/event3 /dev/input/event4
+  644 ?        Sl     0:00 lightdm --session-child 17 20
+  647 ?        Ss     0:00 /lib/systemd/systemd --user
+  648 ?        S      0:00 (sd-pam)                
+  650 ?        Ssl    0:06 /usr/sbin/pi-greeter
+  697 ?        S      0:00 lightdm --session-child 13 20
+  705 ?        S      0:00 [kworker/2:0]
+  707 ?        S      0:00 [kworker/3:0]
+  720 ?        Ss     0:00 sshd: pi [priv]     
+  722 ?        Ss     0:00 /lib/systemd/systemd --user LANG=en_GB.UTF-8 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin NOTIFY_SOCKET=/run/systemd/notify HOME=/home/pi LOGNAME=pi USER=pi SHELL=/bin/bash XDG_RUNTIME_DIR=/run/user/1000
+  723 ?        S      0:00 (sd-pam)                
+  725 ?        S      0:00 sshd: pi@pts/0      
+  726 pts/0    Ss     0:00 -bash USER=pi LOGNAME=pi HOME=/home/pi PATH=/usr/local/bin:/usr/bin:/bin:/usr/games MAIL=/var/mail/pi SHELL=/bin/bash SSH_CLIENT=192.168.159.1 63238 22 SSH_CONNECTION=192.168.159.1 63238 192.168.159.129 22 SSH_TTY=/dev/pts/0 TERM=xterm XDG_SESSION_ID=2 XDG_RUNTIME_DIR=/run/user/1000 LANG=en_GB.UTF-8
+  752 pts/0    S+     0:00 script -ttimelog7Chern12PI 7Chern12PI INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=10 XDG_SESSION_ID=2 INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE=0 INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=25 TERM=xterm SHELL=/bin/bash SSH_CLIENT=192.168.159.1 63238 22 SSH_TTY=/dev/pts/0 INFINALITY_FT_CONTRAST=0 INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH=0 USER=pi LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: INFINALITY_FT_FRINGE_FILTER_STRENGTH=0 INFINALITY_FT_BRIGHTNESS=0 INFINALITY_FT_USE_VARIOUS_TWEAKS=true INFINALITY_FT_GAMMA_CORRECTION=0 100 MAIL=/var/mail/pi PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games PWD=/home/pi INFINALITY_FT_FILTER_PARAMS=11 22 38 22 11 LANG=en_GB.UTF-8 INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS=true INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE=40 INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH=10 INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH=0 INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT=100 INFINALITY_FT_STEM_ALIGNMENT_STRENGTH=25 SHLVL=1 HOME=/home/pi INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE=0 INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE=0 LOGNAME=pi SSH_CONNECTION=192.168.159.1 63238 192.168.159.129 22 INFINALITY_FT_STEM_FITTING_STRENGTH=25 INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=true TEXTDOMAIN=Linux-PAM INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE=0 XDG_RUNTIME_DIR=/run/user/1000 _=/usr/bin/script
+  753 pts/0    S+     0:00 script -ttimelog7Chern12PI 7Chern12PI INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=10 XDG_SESSION_ID=2 INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE=0 INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=25 TERM=xterm SHELL=/bin/bash SSH_CLIENT=192.168.159.1 63238 22 SSH_TTY=/dev/pts/0 INFINALITY_FT_CONTRAST=0 INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH=0 USER=pi LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: INFINALITY_FT_FRINGE_FILTER_STRENGTH=0 INFINALITY_FT_BRIGHTNESS=0 INFINALITY_FT_USE_VARIOUS_TWEAKS=true INFINALITY_FT_GAMMA_CORRECTION=0 100 MAIL=/var/mail/pi PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games PWD=/home/pi INFINALITY_FT_FILTER_PARAMS=11 22 38 22 11 LANG=en_GB.UTF-8 INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS=true INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE=40 INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH=10 INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH=0 INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT=100 INFINALITY_FT_STEM_ALIGNMENT_STRENGTH=25 SHLVL=1 HOME=/home/pi INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE=0 INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE=0 LOGNAME=pi SSH_CONNECTION=192.168.159.1 63238 192.168.159.129 22 INFINALITY_FT_STEM_FITTING_STRENGTH=25 INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=true TEXTDOMAIN=Linux-PAM INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE=0 XDG_RUNTIME_DIR=/run/user/1000 _=/usr/bin/script
+  754 pts/1    Ss     0:00 bash -i INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=10 XDG_SESSION_ID=2 INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE=0 INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=25 TERM=xterm SHELL=/bin/bash SSH_CLIENT=192.168.159.1 63238 22 SSH_TTY=/dev/pts/0 INFINALITY_FT_CONTRAST=0 INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH=0 USER=pi LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: INFINALITY_FT_FRINGE_FILTER_STRENGTH=0 INFINALITY_FT_BRIGHTNESS=0 INFINALITY_FT_USE_VARIOUS_TWEAKS=true INFINALITY_FT_GAMMA_CORRECTION=0 100 MAIL=/var/mail/pi PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games PWD=/home/pi INFINALITY_FT_FILTER_PARAMS=11 22 38 22 11 LANG=en_GB.UTF-8 INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS=true INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE=40 INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH=10 INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH=0 INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT=100 INFINALITY_FT_STEM_ALIGNMENT_STRENGTH=25 SHLVL=1 HOME=/home/pi INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE=0 INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE=0 LOGNAME=pi SSH_CONNECTION=192.168.159.1 63238 192.168.159.129 22 INFINALITY_FT_STEM_FITTING_STRENGTH=25 INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=true TEXTDOMAIN=Linux-PAM INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE=0 XDG_RUNTIME_DIR=/run/user/1000 _=/usr/bin/script
+  765 pts/1    R+     0:00 ps -eax INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=10 XDG_SESSION_ID=2 SHELL=/bin/bash TERM=xterm INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=25 INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE=0 SSH_CLIENT=192.168.159.1 63238 22 SSH_TTY=/dev/pts/0 INFINALITY_FT_CONTRAST=0 USER=pi INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH=0 LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36: INFINALITY_FT_FRINGE_FILTER_STRENGTH=0 INFINALITY_FT_USE_VARIOUS_TWEAKS=true INFINALITY_FT_BRIGHTNESS=0 INFINALITY_FT_GAMMA_CORRECTION=0 100 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games MAIL=/var/mail/pi PWD=/home/pi LANG=en_GB.UTF-8 INFINALITY_FT_FILTER_PARAMS=11 22 38 22 11 INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE=40 INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS=true INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH=10 INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH=0 INFINALITY_FT_STEM_ALIGNMENT_STRENGTH=25 INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT=100 HOME=/home/pi SHLVL=2 INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE=0 LOGNAME=pi INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE=0 SSH_CONNECTION=192.168.159.1 63238 192.168.159.129 22 INFINALITY_FT_STEM_FITTING_STRENGTH=25 INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=true TEXTDOMAIN=Linux-PAM XDG_RUNTIME_DIR=/run/user/1000 INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE=0 _=/bin/ps
+]0;pi@raspberry: ~[01;32mpi@raspberry[00m:[01;34m~ $[00m exit
+exit
+
+Script done on Mon 30 Jan 2023 19:38:27 GMT
