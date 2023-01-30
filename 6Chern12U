@@ -1,0 +1,106 @@
+Script started on 2023-01-30 22:12:18+03:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ [7msudo useradd -m username[27m[1Psudo useradd -m usernam[K[K[K[K[K[K[Kыегвут[K[K[K[K[K[Kstudent12newU
+[?2004l[sudo] password for retur: 
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ [7musermod -a -G examplegroup exampleusername[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pusermod -a -G examplegroup exampleusernam[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mstudent12newU[27mstudent12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newUы student12newUе student12newUг student12newUв student12newUу student12newUт student12newUе student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newU[1P student12newUs student12newUt student12newUu student12newUd student12newUe student12newUn student12newUt student12newU1 student12newU2 student12newUU student12newU
+[?2004lusermod: Permission denied.
+usermod: cannot lock /etc/passwd; try again later.
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ usermod -a -G student12U student12newU[1@s[C[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ pas[K[K[Ksudo passwd [7mstudent12newU[27mstudent12newU
+[?2004lNew password: 
+BAD PASSWORD: The password is a palindrome
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ ls -la
+[?2004ltotal 376
+drwxr----- 16 retur student12U   4096 янв 29 15:30 [0m[01;34m.[0m
+drwxr-xr-x  5 root  root         4096 янв 30 22:13 [01;34m..[0m
+-rw-r--r--  1 retur retur       10058 янв 29 14:22 3Chern12PI
+-rw-rw-r--  1 retur retur        5650 янв 29 13:03 3Chern12U
+-rw-rw-r--  1 retur retur      185503 янв 29 14:16 4Chern12U
+-rw-rw-r--  1 retur retur           0 янв 30 22:12 6Chern12U
+-rw-------  1 retur retur        7482 янв 30 22:11 .bash_history
+-rw-r--r--  1 retur retur         220 сен  6 23:34 .bash_logout
+-rw-r--r--  1 retur retur        3771 сен  6 23:34 .bashrc
+drwx------  9 retur retur        4096 сен 18 16:46 [01;34m.cache[0m
+drwxrwxr-x  3 retur retur        4096 янв 29 14:51 [01;34mchern[0m
+-rw-rw-r--  1 retur retur        7175 сен 18 17:30 cherniauski12.txt
+drwx------ 11 retur retur        4096 сен  7 18:21 [01;34m.config[0m
+drwxr-xr-x  3 retur retur        4096 окт 11 16:00 [01;34mDesktop[0m
+drwxr-xr-x  2 retur retur        4096 сен 18 17:29 [01;34mDocuments[0m
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mDownloads[0m
+-rw-rw-r--  1 retur retur          40 янв 29 13:39 .gitconfig
+-rw-------  1 retur retur         345 янв 29 13:55 key
+-rw-------  1 retur retur          20 янв 29 15:30 .lesshst
+drwx------  3 retur retur        4096 сен  6 23:37 [01;34m.local[0m
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mMusic[0m
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mPictures[0m
+-rw-r--r--  1 retur retur         807 сен  6 23:34 .profile
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mPublic[0m
+drwx------  7 retur retur        4096 окт 11 16:06 [01;34msnap[0m
+drwx------  2 retur retur        4096 янв 29 14:15 [01;34m.ssh[0m
+-rw-r--r--  1 retur retur           0 сен 18 16:24 .sudo_as_admin_successful
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mTemplates[0m
+-rw-rw-r--  1 retur retur         869 сен 18 17:30 time_log
+-rw-rw-r--  1 retur retur         780 янв 29 13:03 timelog3Chern12U
+-rw-rw-r--  1 retur retur       43451 янв 29 14:16 timelog4Chern12U
+-rw-rw-r--  1 retur retur           0 янв 30 22:12 timelog6Chern12U
+-rw-rw-r--  1 retur retur        4654 сен 18 17:23 typescript
+drwxr-xr-x  2 retur retur        4096 сен  6 23:37 [01;34mVideos[0m
+[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ cd ..
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ ls -la
+[?2004ltotal 20
+drwxr-xr-x  5 root          root          4096 янв 30 22:13 [0m[01;34m.[0m
+drwxr-xr-x 20 root          root          4096 сен  6 23:33 [01;34m..[0m
+drwxr----- 16 retur         student12U    4096 янв 29 15:30 [01;34mretur[0m
+drwxr-x---  6 student12newU student12newU 4096 янв 30 22:16 [01;34mstudent12newU[0m
+drwxr-xr-x  2 root          root          4096 янв 30 01:13 [01;34mstudentuser12U[0m
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ ls -la
+[?2004ltotal 20
+drwxr-xr-x  5 root          root          4096 янв 30 22:13 [0m[01;34m.[0m
+drwxr-xr-x 20 root          root          4096 сен  6 23:33 [01;34m..[0m
+drwxr----- 16 retur         student12U    4096 янв 29 15:30 [01;34mretur[0m
+drwxr-x---  6 student12newU student12newU 4096 янв 30 22:16 [01;34mstudent12newU[0m
+drwxr-xr-x  2 root          root          4096 янв 30 01:13 [01;34mstudentuser12U[0m
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ [7mchgrp[27mchgrp student12U retur
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ chgrp student12U returls -la[K
+[?2004ltotal 20
+drwxr-xr-x  5 root          root          4096 янв 30 22:13 [0m[01;34m.[0m
+drwxr-xr-x 20 root          root          4096 сен  6 23:33 [01;34m..[0m
+drwxr----- 16 retur         student12U    4096 янв 29 15:30 [01;34mretur[0m
+drwxr-x---  6 student12newU student12newU 4096 янв 30 22:16 [01;34mstudent12newU[0m
+drwxr-xr-x  2 root          root          4096 янв 30 01:13 [01;34mstudentuser12U[0m
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ ls -lachgrp student12U retur[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chgrp student12U returls -la[K
+[?2004ltotal 20
+drwxr-xr-x  5 root          root          4096 янв 30 22:13 [0m[01;34m.[0m
+drwxr-xr-x 20 root          root          4096 сен  6 23:33 [01;34m..[0m
+drwxr----- 16 retur         student12U    4096 янв 29 15:30 [01;34mretur[0m
+drwxr-x---  6 student12newU student12newU 4096 янв 30 22:16 [01;34mstudent12newU[0m
+drwxr-xr-x  2 root          root          4096 янв 30 01:13 [01;34mstudentuser12U[0m
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ chmod[K[K[K[K[Ksudo chmod - [Krwer----- retur
+[?2004lchmod: invalid mode: ‘-rwer-----’
+Try 'chmod --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chmod -rwer----- retur" retur[1@"[1@\[1P
+[?2004lchmod: invalid mode: ‘-rwer-----’
+Try 'chmod --help' for more information.
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chmod "-rwer-----" retur[1P[1@-
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chmod "-rw-r-----" retur[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -la
+[?2004ltotal 20
+drwxr-xr-x  5 root          root          4096 янв 30 22:13 [0m[01;34m.[0m
+drwxr-xr-x 20 root          root          4096 сен  6 23:33 [01;34m..[0m
+d--x------ 16 retur         student12U    4096 янв 29 15:30 [01;34mretur[0m
+drwxr-x---  6 student12newU student12newU 4096 янв 30 22:16 [01;34mstudent12newU[0m
+drwxr-xr-x  2 root          root          4096 янв 30 01:13 [01;34mstudentuser12U[0m
+[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ ls -lasudo chmod "-rw-r-----" retur[C[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P retur[1P returg retur+ returx retur
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chmod g+x retur[C[1@r
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ sudo chmod g+rx retur/chern/README.md [K[C[1@w
+[?2004l[?2004h]0;retur@retur-virtual-machine: /homeretur@retur-virtual-machine:/home$ cat retur/[K[K[K[K[K[K[K[K[K[Kcd retur/
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~retur@retur-virtual-machine:~$ cd chern
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ c[Kcat README.md 
+[?2004l1234
+12345678
+
+[?2004h]0;retur@retur-virtual-machine: ~/chernretur@retur-virtual-machine:~/chern$ exit
+[?2004lexit
+
+Script done on 2023-01-30 22:30:29+03:00 [COMMAND_EXIT_CODE="0"]
